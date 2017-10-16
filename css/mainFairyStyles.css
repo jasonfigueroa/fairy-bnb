@@ -1,0 +1,243 @@
+/* html, body  {
+		height: 100%;
+	}
+    
+    #page-wrapper  {
+		overflow: hidden;
+        padding: 5em 1em;   
+    }  */
+    
+	/* body  {
+        background-color: #fff;
+        width: 80%;
+        margin: auto;
+		font-family: 'Lato', sans-serif;
+		font-size: .9em;
+		color: #2E2E33;
+    } */
+
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+		
+/*-------------------- Headings--------------*/
+
+    /* h1	{
+		margin: 18px 1px 0px 1px;
+        padding: 0;
+        font-size: 2em;
+        font-weight: 900;
+		color: #4B4B45;
+    }     */
+
+    /* h1.white	{
+		margin: 10px 1px 0px 1px;
+		padding: 0;
+        font-size: 2em;
+        font-weight: 100;
+        color: #fff;
+    }     */
+    
+    /* h2  {
+		margin: 1.3em 0 0 0;
+        padding: 0;
+        /*font-size: 1.8em;*/
+        /* color: #7F7E76; */
+        /* color: #FF533D; */
+    /* }     */
+
+    /*h3	{
+		margin: 1.3em 0 0 0;
+        padding: 0;
+        font-size: 1.2em;
+		color: #7F7E76;
+    } */       
+    
+   /* h3, h4, h5, h6	{
+		margin: 2em 0 0 0;
+        padding: 0;
+        font-size: 1.2em;
+		color: #FF533D;
+    }     */
+    
+/*--------Text with Links & Quotes-----------*/
+    /* p {
+        margin: .2em 0 1em 0;
+		line-height: 140%;
+        color: #2E2E33;
+    } */
+
+    /* blockquote  {
+        display:block;
+        background: #FF533D30;
+        box-shadow: 2px 2px 15px #7F7E76;
+        padding: 15px 20px 15px 45px;
+        margin: 0 0 20px;
+        position: relative;
+        content: "\201C"   
+    } */
+
+    /* a   {
+        color: #3D88FF;
+    } */
+
+    /* a:hover   {
+        text-decoration: underline;
+    } */
+
+    /* a:active   {
+        background-color: #FF533D30;
+    } */
+
+    /* a:visited   {
+        text-decoration: underline;
+    } */
+
+
+/*------------------Forms--------------------*/
+
+    /* form input.text, select, textarea {
+        position: relative;
+        display: block;
+        border: 0;
+        background: #fff;
+        font-size: 1.3em;
+        width: 50%;
+        margin: 0;
+        padding: 1em;
+        border: 1px solid #7F7E76;
+        border-radius: 0.50em;
+        box-shadow: inset 0 0.01em 0.01em 0 #cccccc;
+        transition: all 0.35s ease-in-out;
+        outline: none;
+    } */
+
+    /* form input {
+        padding: 2px 1px; 
+        line-height: 28px; 
+        border-radius: 0.50em;
+    }
+    
+    form select {
+        width: 30%;
+        font-size: 1em;
+    }
+
+    form textarea  {
+        min-height: 12em;
+    }
+
+    form input.text:focus, select:focus, textarea:focus  {
+        box-shadow: 0 0 .1em .1em #cccccc;
+        background: #fff;
+    }
+
+    .formheader {
+        color: #4B4B45;
+        font-size: 1.2em;
+        font-weight: 700;
+        margin-bottom: 6px;
+    }
+
+    input::placeholder {
+        color: #cccccc;
+    }
+
+/*----------------Images---------------------*/
+
+    /* img.image  {
+        display: inline-block;
+        border: 1px solid #4B4B45;
+    }
+
+    img.image-full  {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    img.image-left  {
+        float: right;
+        margin: 0 2em 3em 0;
+    }
+
+    img.image-centered img  {
+        margin: 0 auto;
+        width: auto;
+    } */
+
+/*----------------Columns--------------------*/
+    /*  3 equal columns that float next to each other */
+    /* .column3 {
+        float: left;
+        width: 30%;
+    } */
+
+    /*  2 equal columns that float next to each other */
+    /* .column2 {
+        float: left;
+        width: 45%;
+    } */
+
+    /* Clear floats after the columns */
+    /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    } */
+
+/*----------------Buttons--------------------*/
+    /* button {
+        display: inline-block;
+        margin: 0 10px 0 0;
+        padding: 8px 24px;
+        line-height: 1.8;
+        box-shadow: none;
+        border: 1px;
+        border-radius: 6px;    
+        font-size: 1.2em;
+        text-align: center;    
+        color: #fff;
+        background-color: #FF533D;
+    }
+  
+    button:hover {
+        border: 1px;
+        border-radius: 6px;    
+        box-shadow: inset 0 0 0 3px #FF533D;
+        color: #FF533D;
+        transition-duration: 0.3s;    
+        background-color: #fff;
+    }
+
+    button.disabled {
+        color: #FF533D;
+        background-color: #FF533D50;     
+        cursor: not-allowed;
+    } */
+
+    /* #call-to-action h1 {
+        color: #FF533D;
+    }
+
+    #nav li {
+        color: #FF533D;
+    } */
+
+    #about-container header,
+    #call-to-action h1,
+    #about-btn,
+    #packages-btn,
+    #personal-guides-btn,
+    #contact-btn,
+    #back-to-top,
+    #about p,
+    #packages p,
+    #personal-guides p,
+    #contact p {
+        color: #FF533D;
+    }
+
+    #nav {
+        background-color: rgba(245, 245, 245, 0.6);
+    }
